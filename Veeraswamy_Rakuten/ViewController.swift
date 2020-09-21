@@ -15,6 +15,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    @IBAction func connectDevicebtnClicked(_ sender: Any) {
+        
+        [self.performSegue(withIdentifier:"connect", sender: nil)];
+    }
+    @IBAction func connectHistortbtnClicked(_ sender: Any) {
+        [self.performSegue(withIdentifier:"history", sender:nil)]
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

@@ -14,6 +14,21 @@
 		A359318A2518A5070027AF09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A35931882518A5070027AF09 /* LaunchScreen.storyboard */; };
 		A35931952518A5080027AF09 /* Veeraswamy_RakutenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35931942518A5080027AF09 /* Veeraswamy_RakutenTests.swift */; };
 		A35931A02518A5080027AF09 /* Veeraswamy_RakutenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A359319F2518A5080027AF09 /* Veeraswamy_RakutenUITests.swift */; };
+		A35931AE2518A6A40027AF09 /* ConnectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35931AD2518A6A40027AF09 /* ConnectTableViewController.swift */; };
+		A35931B02518A9BE0027AF09 /* ConnectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35931AF2518A9BE0027AF09 /* ConnectTableViewCell.swift */; };
+		A35931B22518AC2C0027AF09 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35931B12518AC2C0027AF09 /* Singleton.swift */; };
+		A35931B52518AC550027AF09 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A35931B42518AC550027AF09 /* CoreBluetooth.framework */; };
+		A35931B72518AD380027AF09 /* Central.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35931B62518AD380027AF09 /* Central.swift */; };
+		A35931BD2518B0B30027AF09 /* ConnectedDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35931BC2518B0B30027AF09 /* ConnectedDevice.swift */; };
+		A35931BF2518B1D50027AF09 /* ScannedDeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35931BE2518B1D50027AF09 /* ScannedDeviceList.swift */; };
+		A35931C12518B2930027AF09 /* ScannedDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35931C02518B2930027AF09 /* ScannedDevice.swift */; };
+		A35931C42518BA690027AF09 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35931C32518BA480027AF09 /* History.swift */; };
+		A35931C62518BF270027AF09 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35931C52518BF270027AF09 /* HistoryTableViewController.swift */; };
+		A35931C82518BF520027AF09 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35931C72518BF520027AF09 /* HistoryTableViewCell.swift */; };
+		A35931CC2518CD620027AF09 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35931CB2518CD620027AF09 /* Regex.swift */; };
+		A35931CE2518CDB00027AF09 /* DeviceRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35931CD2518CDB00027AF09 /* DeviceRegex.swift */; };
+		A35931D02518DADA0027AF09 /* Notify.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35931CF2518DADA0027AF09 /* Notify.swift */; };
+		A35931D22518E8650027AF09 /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35931D12518E8650027AF09 /* DeviceInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +62,21 @@
 		A359319B2518A5080027AF09 /* Veeraswamy_RakutenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Veeraswamy_RakutenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A359319F2518A5080027AF09 /* Veeraswamy_RakutenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veeraswamy_RakutenUITests.swift; sourceTree = "<group>"; };
 		A35931A12518A5080027AF09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A35931AD2518A6A40027AF09 /* ConnectTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectTableViewController.swift; sourceTree = "<group>"; };
+		A35931AF2518A9BE0027AF09 /* ConnectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectTableViewCell.swift; sourceTree = "<group>"; };
+		A35931B12518AC2C0027AF09 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		A35931B42518AC550027AF09 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		A35931B62518AD380027AF09 /* Central.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Central.swift; sourceTree = "<group>"; };
+		A35931BC2518B0B30027AF09 /* ConnectedDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedDevice.swift; sourceTree = "<group>"; };
+		A35931BE2518B1D50027AF09 /* ScannedDeviceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannedDeviceList.swift; sourceTree = "<group>"; };
+		A35931C02518B2930027AF09 /* ScannedDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannedDevice.swift; sourceTree = "<group>"; };
+		A35931C32518BA480027AF09 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		A35931C52518BF270027AF09 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		A35931C72518BF520027AF09 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		A35931CB2518CD620027AF09 /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
+		A35931CD2518CDB00027AF09 /* DeviceRegex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceRegex.swift; sourceTree = "<group>"; };
+		A35931CF2518DADA0027AF09 /* Notify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notify.swift; sourceTree = "<group>"; };
+		A35931D12518E8650027AF09 /* DeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A35931B52518AC550027AF09 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +112,7 @@
 				A35931932518A5080027AF09 /* Veeraswamy_RakutenTests */,
 				A359319E2518A5080027AF09 /* Veeraswamy_RakutenUITests */,
 				A359317D2518A5040027AF09 /* Products */,
+				A35931B32518AC550027AF09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +129,13 @@
 		A359317E2518A5040027AF09 /* Veeraswamy_Rakuten */ = {
 			isa = PBXGroup;
 			children = (
+				A35931C22518BA3D0027AF09 /* Common */,
 				A359317F2518A5040027AF09 /* AppDelegate.swift */,
 				A35931812518A5040027AF09 /* ViewController.swift */,
+				A35931AD2518A6A40027AF09 /* ConnectTableViewController.swift */,
+				A35931AF2518A9BE0027AF09 /* ConnectTableViewCell.swift */,
+				A35931C72518BF520027AF09 /* HistoryTableViewCell.swift */,
+				A35931C52518BF270027AF09 /* HistoryTableViewController.swift */,
 				A35931832518A5040027AF09 /* Main.storyboard */,
 				A35931862518A5070027AF09 /* Assets.xcassets */,
 				A35931882518A5070027AF09 /* LaunchScreen.storyboard */,
@@ -123,6 +160,31 @@
 				A35931A12518A5080027AF09 /* Info.plist */,
 			);
 			path = Veeraswamy_RakutenUITests;
+			sourceTree = "<group>";
+		};
+		A35931B32518AC550027AF09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A35931B42518AC550027AF09 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A35931C22518BA3D0027AF09 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A35931B12518AC2C0027AF09 /* Singleton.swift */,
+				A35931B62518AD380027AF09 /* Central.swift */,
+				A35931C32518BA480027AF09 /* History.swift */,
+				A35931BC2518B0B30027AF09 /* ConnectedDevice.swift */,
+				A35931BE2518B1D50027AF09 /* ScannedDeviceList.swift */,
+				A35931C02518B2930027AF09 /* ScannedDevice.swift */,
+				A35931CB2518CD620027AF09 /* Regex.swift */,
+				A35931CD2518CDB00027AF09 /* DeviceRegex.swift */,
+				A35931CF2518DADA0027AF09 /* Notify.swift */,
+				A35931D12518E8650027AF09 /* DeviceInfo.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +318,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A35931AE2518A6A40027AF09 /* ConnectTableViewController.swift in Sources */,
 				A35931822518A5040027AF09 /* ViewController.swift in Sources */,
+				A35931C12518B2930027AF09 /* ScannedDevice.swift in Sources */,
+				A35931C42518BA690027AF09 /* History.swift in Sources */,
+				A35931BD2518B0B30027AF09 /* ConnectedDevice.swift in Sources */,
+				A35931B02518A9BE0027AF09 /* ConnectTableViewCell.swift in Sources */,
+				A35931C82518BF520027AF09 /* HistoryTableViewCell.swift in Sources */,
+				A35931D22518E8650027AF09 /* DeviceInfo.swift in Sources */,
+				A35931CE2518CDB00027AF09 /* DeviceRegex.swift in Sources */,
+				A35931B22518AC2C0027AF09 /* Singleton.swift in Sources */,
 				A35931802518A5040027AF09 /* AppDelegate.swift in Sources */,
+				A35931C62518BF270027AF09 /* HistoryTableViewController.swift in Sources */,
+				A35931B72518AD380027AF09 /* Central.swift in Sources */,
+				A35931BF2518B1D50027AF09 /* ScannedDeviceList.swift in Sources */,
+				A35931CC2518CD620027AF09 /* Regex.swift in Sources */,
+				A35931D02518DADA0027AF09 /* Notify.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
