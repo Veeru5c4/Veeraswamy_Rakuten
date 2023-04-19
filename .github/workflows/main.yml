@@ -1,0 +1,16 @@
+name: Create full versions
+
+on:
+  push:
+    tags: [ v* ]
+
+jobs:
+  build:
+    name: Build Protect for Apple devices
+    runs-on: macos-latest
+    timeout-minutes: 25
+
+    steps:
+      - uses: swift-actions/setup-swift@v1
+      - name: Get swift version
+        run: swift --version # Swift 5.6.1
